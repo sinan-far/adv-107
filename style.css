@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(211,211,211);
+}
+#p1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+#header_div {
+    background-color: teal;
+    color: whitesmoke;
+}
+#footer{
+    background-color: thistle;
+    color: whitesmoke;
+    width: 100%;
+    font-size: 20px;
+    line-height: 3;
+    position: fixed;
+    margin: 0;
+    text-align: center;
+}

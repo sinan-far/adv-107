@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>106</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+    </script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> 
+    </script>
+     <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"> </script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Noto+Sans:ital@1&family=Orbitron&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <div id="header_div">
+            <h2>
+                sound controlled animals
+            </h2>
+            <p id="p1">
+                note: play different animals sound like barking or meowing.
+            </p>
+        </div>
+            <div id="button_holder">
+                <button id="detector" class="">
+
+                </button>
+            </div>
+            <div id="main_div">
+                <button onclick="start()" class="btn btn-info">
+                    start
+                </button>
+                <h4 id="detected_voice"></h4>
+                <br>
+                <img id="photo" src="listen.gif">
+            </div>
+         </div>
+    </div>
+</center>
+<div id="footer" class="copy-right-footer">
+    <h1>
+        this is footer
+    </h1>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
